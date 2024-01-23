@@ -1,0 +1,78 @@
+.commentAccount{
+    display: block;
+    width: 100%;
+}
+.commentProduct{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: 1px solid var(--color-gray-50);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.commentProduct_img{
+    width: 150px;
+}
+.commentProduct_textTile{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.commentProduct_title{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-black);
+}
+.commentProduct_text{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-gray-100);
+    margin-right: 0.2rem;
+}
+.commentProduct_btnDelete{
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 2rem;
+    background-color: var(--color-red-2);
+    color: var(--color-white);
+    border-radius: 0.4rem;
+    transition: all 0.4s ease-in;
+}
+
+.commentProduct_btnDelete:hover{
+    background-color: var(--color-red-1);
+}
+
+
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+.container{
+    max-width: 720px;
+}
+    
+}
+@media only screen and (max-width: 768px) {
+.container{
+    max-width: 540px;
+}
+
+}
+@media only screen and (max-width: 576px) {
+.container{
+    max-width:  100%;
+}
+.commentProduct{
+    flex-direction: column;
+}
+}

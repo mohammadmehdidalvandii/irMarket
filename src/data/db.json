@@ -1,0 +1,188 @@
+{
+    "products":[
+        {
+            "id":1,
+            "image":"/assets/images/p1.jpg",
+            "name":"شیائومی mi 11",
+            "price":8700000,
+            "des":"",
+            "count": 1,
+            "inCould":39
+        },
+        {
+            "id":2,
+            "image":"/assets/images/p2.jpg",
+            "name":"ساعت هوشمند اپل مدل 8",
+            "price":16000000,
+            "des":"",
+            "count": 1,
+            "inCould":21 
+        },
+        {
+            "id":3,
+            "image":"/assets/images/p3.jpg",
+            "name":"ریش تراش دایاک",
+            "price":1280000,
+            "des":"",
+            "count": 1,
+            "inCould":1 
+        },
+        {
+            "id":4,
+            "image":"/assets/images/p4.jpg",
+            "name":"tv 24 اینج LG   ",
+            "price":12000000,
+            "des":"",
+            "count": 1,
+            "inCould":22
+        },
+        {
+            "id":5,
+            "image":"/assets/images/p5.jpg",
+            "name":"پافر پاییزی ",
+            "price":430000,
+            "des":"",
+            "count": 1,
+            "inCould":54
+        },
+        {
+            "id":6,
+            "image":"/assets/images/p6.jpg",
+            "name":"هندزفری شیائومی T12 ",
+            "price":4560000,
+            "des":"",
+            "count": 1,
+            "inCould":43
+        },
+        {
+            "id":7,
+            "image":"/assets/images/p7.jpg",
+            "name":"لب تاپ ایسوس xyz",
+            "price":43900000,
+            "des":"",
+            "count": 1,
+            "inCould":21
+        },
+        {
+            "id":8,
+            "image":"/assets/images/p8.jpg",
+            "name":"گوشی نافینگ 1",
+            "price":1560000,
+            "des":"",
+            "count": 1,
+            "inCould":43
+        },
+        {
+            "id":9,
+            "image":"/assets/images/p9.jpg",
+            "name":"کش مخصوص تقویت دست",
+            "price":1200000,
+            "des":"",
+            "count": 1,
+            "inCould":73
+        },
+        {
+            "id":10,
+            "image":"/assets/images/p10.jpg",
+            "name":"اسپری اتو مو",
+            "price":120000,
+            "des":"",
+            "count": 1,
+            "inCould":43
+        },
+        {
+            "id":11,
+            "image":"/assets/images/p11.jpg",
+            "name":"پک لوازم سفر",
+            "price":2300000,
+            "des":"",
+            "count": 1,
+            "inCould":33
+        },
+        {
+            "id":12,
+            "image":"/assets/images/p12.jpg",
+            "name":"بسته روان نویس ",
+            "price":150000,
+            "des":"",
+            "count": 1,
+            "inCould":13
+        },
+        {
+            "id":13,
+            "image":"/assets/images/p13.jpg",
+            "name":"کیسه خواب",
+            "price":2300000,
+            "des":"",
+            "count": 1,
+            "inCould":32
+        },
+        {
+            "id":14,
+            "image":"/assets/images/p14.jpg",
+            "name":"صاف کننده کمر و گردن",
+            "price":450000,
+            "des":"",
+            "count": 1,
+            "inCould":123
+        },
+        {
+            "id":15,
+            "image":"/assets/images/p15.jpg",
+            "name":"پالتو چرم",
+            "price":1500000,
+            "des":"",
+            "count": 1,
+            "inCould":43
+        },
+        {
+            "id":16,
+            "image":"/assets/images/p16.jpg",
+            "name":"هواپز",
+            "price":23000000,
+            "des":"",
+            "count": 1,
+            "inCould":63
+        },
+        {
+            "id":17,
+            "image":"/assets/images/p17.jpg",
+            "name":"ساعت زنانه",
+            "price":870000,
+            "des":"",
+            "count": 1,
+            "inCould":23
+        },
+        {
+            "id":18,
+            "image":"/assets/images/p18.jpg",
+            "name":"کفش چرم ",
+            "price":2450000,
+            "des":"",
+            "count": 1,
+            "inCould":45
+        }
+    ],
+    "articles":[
+        {
+            "id":1,
+            "image":"/assets/images/w1.jpg",
+            "title":"لوازم آشپزی مورد نیاز"
+        },
+        {
+            "id":2,
+            "image":"/assets/images/w2.jpg",
+            "title":"چه چیزی هایی با خود به کوه ببرم؟"
+        },
+        {
+            "id":3,
+            "image":"/assets/images/w3.jpg",
+            "title":"چرا نباید در هوای بارانی در فصل زمستان و بهار آفرود بریم؟"
+        },
+        {
+            "id":4,
+            "image":"/assets/images/w4.jpg",
+            "title":"چادر ضداب یا پارچه ای؟"
+        }
+    ]
+}

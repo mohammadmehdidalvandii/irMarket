@@ -1,0 +1,71 @@
+.weblogCard{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    background-color: var(--color-gray-50);
+    color: var(--color-black);
+    padding: 1rem;
+    border-radius: 0.5rem;    
+    transition: all 0.4s ease-in;
+    margin-bottom: 1rem;
+}
+.weblogCard:hover .weblogCard_title{
+    color: var(--color-red-1);
+}
+.weblogCard_img{
+    width: 250px;
+    border-radius: 0.5rem;
+}
+.weblogCard_content{
+    display: block;
+    margin-right: 1.5rem;
+}
+.weblogCard_title{
+    font-family: var(--font-black);
+    font-size: 1.5rem;
+    transition: all 0.4s ease-in;
+}
+.weblogCard_paraph{
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+.weblogCard_date_creator{
+    display: block;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+.container{
+    max-width: 720px;
+}
+.weblogCard{
+    flex-direction: column;
+}
+.weblogCard_img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+}
+@media only screen and (max-width: 768px) {
+.container{
+    max-width: 540px;
+}
+
+}
+@media only screen and (max-width: 576px) {
+.container{
+    max-width:  100%;
+}
+}

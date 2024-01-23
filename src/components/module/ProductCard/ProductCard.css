@@ -1,0 +1,33 @@
+.productCard{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    transition: all 0.4s ease-in;
+}
+.productCard:hover{
+    scale: 1.04;
+}
+.productCard:hover .productCard_name{
+    color: var(--color-red-1);
+}
+.productCard_img{
+    width: 100%;
+}
+.productCard_content{
+    display: block;
+    text-align: center;
+  margin-top: 1rem;
+}
+.productCard_name{
+    font-family: var(--font-bold);
+    color: var(--color-black);
+    transition: all 0.4s ease-in;
+}
+.productCard_price{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 0.5rem; 
+    color: var(--color-gray-100);
+}

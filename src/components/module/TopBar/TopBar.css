@@ -1,0 +1,254 @@
+/* ++++++++++++++ Start Style Section TopBar +++++++++++++++++ */
+.topBar{
+    display: block;
+    width: 100%;
+    padding: 0.7rem 0;
+    background-color: var(--color-white);
+}
+
+.topBar_logo{
+    width: 100%;
+}
+
+.topBar_search{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 2.5rem;
+    margin: 0 auto;
+    border: 1px solid var(--color-red-1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.topBar_search-input{
+ outline: none;
+ border: none;
+ width: 100%;
+ padding-right: 0.3rem;
+}
+.topBar_search-input::placeholder{
+    padding-right: 0.5rem;
+    font-size: 0.9em;
+    color: var(--color-red-2);
+}
+.topBar_search-icon{
+    padding-left: 0.4rem;
+    font-size: 2rem;
+    color: var(--color-red-2);
+}
+
+
+.topBar_LoginRegister-basket{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.loginRegister{
+padding: 0.4rem 0.6rem;
+border-radius: 0.5rem;
+transition: all 0.4s ease-in;
+}
+    /* .loginRegister:hover{
+        background-color: var(--color-pink);
+    } */
+.loginRegister_text{
+    font-size: 1rem;
+}
+.loginRegister_text-icon{
+    padding-left: 0.2rem;   
+    font-size: 1.3rem;
+    color: var(--color-red-1);
+}
+.loginRegister_links{
+    display: block;
+    margin-trim: block-end;
+}
+.loginRegister-link{
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    color: var(--color-black);
+    text-decoration: none;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.4rem;
+    transition: all 0.4s ease-in;
+}
+.loginRegister-link:hover{
+    background-color: var(--color-pink);
+}
+
+.topBar_basket-num{
+    display: block;
+    position: relative;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.5rem;
+    transition: all 0.4s ease-in;
+}
+.topBar_basket-num:hover{
+    background-color: var(--color-pink);
+}
+.topBar_basket-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -0.5rem ;
+    right: -0.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--color-red-1);
+    color: var(--color-white);
+    border-radius: 50%;
+}
+.topBar_linkBasket{
+    text-decoration: none;
+}
+.topBar_linkBasket-icon{
+    font-size: 1.5rem;
+    color: var(--color-red-2);
+}
+.topBar_linkBasket-text{
+    color: var(--color-black);
+    
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.4rem;
+    transition: all 0.4s ease-in;
+}
+/* ++++++++++++++ End Style Section TopBar +++++++++++++++++ */
+
+/* ++++++++++++++ Start Style Section TopBar +++++++++++++++++ */
+.topBarRes{
+    display: none;
+    width: 100%;
+    padding: 0.7rem 0;
+    background-color: var(--color-white);
+}
+.topBarRes_wrap{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.topBarRes_menuLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topBarRes_menu{
+    display: block;
+    /* position: relative; */
+    width: 100%;
+}
+.topBarRes_MenuItem{
+    position: absolute;
+    display: block;
+    padding: 3rem 1rem;
+    width: 100%;
+    background-color: var(--color-white);
+    z-index: 2;
+}
+.menuItem_linkLogo{
+    display: block;
+    text-align: center;
+}
+.menuItem-link{
+    display: block;
+    text-decoration: none;
+    color: var(--color-black);
+padding: 0.4rem 0.5rem;
+border-radius: 0.5rem;
+transition: all 0.4s ease-in;
+}
+.menuItem-link_number{
+    color: var(--color-red-1);
+}
+.menuItem-linkActive{
+    display: block;
+    text-decoration: none;
+    color: var(--color-black);
+    background-color: var(--color-pink);
+padding: 0.4rem 0.5rem;
+border-radius: 0.5rem;
+}
+.menuItem-link:hover{
+    background-color: var(--color-pink);
+}
+.menuItem-link-icon{
+    color: var(--color-red-2);
+    font-size: 1.3rem;
+}
+.menuItem_items{
+    margin-trim: block-end;
+}
+.menuItem_item{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.menuItem_itemLink{
+    display: block;
+    text-decoration: none;
+    color: var(--color-black);
+padding: 0.4rem 0.5rem;
+border-radius: 0.5rem;
+transition: all 0.4s ease-in;
+}
+.menuItem_itemLink:hover{
+    background-color: var(--color-pink);
+}
+.topBarRes_menu-icon{
+    font-size: 2rem;
+    color: var(--color-red-2);
+    cursor: pointer;
+}
+.topBarRes_logo{
+    max-width: 150px;
+}
+.topBarRes_search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    height: 2.5rem;
+    border: 1px solid var(--color-red-1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.topBarRes_search-input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.topBarRes_search-input::placeholder{
+    padding-right: 0.5rem;
+    font-size: 0.9em;
+    color: var(--color-red-2);
+}
+.topBarRes_search-icon{
+    padding-left: 0.4rem;
+    font-size: 2rem;
+    color: var(--color-red-2);
+}
+/* ++++++++++++++ End Style Section TopBar +++++++++++++++++ */
+
+
+@media only screen and (max-width: 1200px) {
+    .containers{
+        max-width: 960px;
+    }
+    .topBar_basket-num{
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .containers{
+        max-width: 720px;
+    }
+    .topBar{
+        display: none;
+    }
+    .topBarRes{
+        display: block;
+    }
+}

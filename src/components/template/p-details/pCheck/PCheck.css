@@ -1,0 +1,15 @@
+.pCheck{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;    
+}
+.pCheck_desc{
+    display: block;
+    width: 100%;
+    font-family: var(--font-bold);
+    font-size: 1rem;
+    color: var(--color-gray-100);
+}
+.pCheck-img{
+    max-width: 200px;
+}

@@ -1,0 +1,43 @@
+.articles{
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+
+.article_new{
+    display: block;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    background-color: var(--color-gray-50);
+    border-radius: 0.5rem;
+}
+.article_items{
+    display: block;
+    margin-trim: block-end;
+}
+.article_item{
+    margin-bottom: 1rem;
+}
+.article_item_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+}
+.article_item_link:hover .article_item_title{
+    color: var(--color-red-1);
+}
+.article_item_img{
+    width: 130px;
+}
+.article_item_title{
+    margin-right: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-black);
+    transition: all 0.4s ease-in;
+}
+
+
+

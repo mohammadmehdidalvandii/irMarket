@@ -1,0 +1,14 @@
+.aboutUs{
+    display: block;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.aboutUs_wrapper{
+
+}
+.aboutUs_paraph{
+    color: var(--color-black);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-gray-100);
+}

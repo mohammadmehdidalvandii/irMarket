@@ -1,0 +1,13 @@
+.register{
+    display: block;
+    margin: 3rem 0;
+    width: 100%;
+}
+.register_wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-color: var(--color-white);
+    box-shadow: 0 0 10px 5px var(--color-pink);
+    padding: 2rem 1.5rem;
+}

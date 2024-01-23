@@ -1,0 +1,95 @@
+.orderAccount{
+    display: block;
+    width: 100%;
+
+}
+.orderAccount_wrapper{
+    display: block;
+}
+.orderAccount_table{
+    display: block;
+ width: 100%;   
+}
+.orderAccount_thead{
+    display: block;
+}
+.orderAccount_tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-gray-50);
+    height: 2rem;
+    padding: 0.4rem;
+}
+.orderAccount_th{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orderAccount_th_text{
+    font-size: 0.9rem
+}
+
+.orderAccount_tbody{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+.orderAccount_tbody_tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    padding: 0.4rem;
+    border-bottom: 1px solid var(--color-gray-100);
+    padding: 1rem 0;
+}
+.orderAccount_td{
+
+}
+.orderAccount_td_text{
+    font-size: 0.9rem
+}
+.orderAccount_td_btnDetails{
+    outline: none;
+    border: none;
+    background-color: unset;
+    color: var(--color-pink);
+    transition: all 0.4s ease-in;
+}
+.orderAccount_td_btnDetails:hover{
+    color: var(--color-red-1);
+}
+
+
+
+/*  Media Query  */
+
+@media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .orderAccount_wrapper{
+        overflow-x: scroll;
+    } 
+}
+@media only screen and (max-width: 992px) {
+.container{
+    max-width: 720px;
+}
+.orderAccount_table{
+    display: block;
+    width: 730px;
+}
+}
+@media only screen and (max-width: 768px) {
+.container{
+    max-width: 540px;
+}
+
+}
+@media only screen and (max-width: 576px) {
+.container{
+    max-width:  100%;
+}
+}

@@ -1,0 +1,102 @@
+.favoriteAccount{
+    display: block;
+    width: 100%;
+}
+.favoriteAccount_wrapper{
+    display: block;
+    width: 100%;
+}
+.favoriteProduct{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    border: 1px solid var(--color-gray-75);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.favoriteProduct_img{
+    max-width: 150px;
+}
+.favoriteProduct_name{
+    font-family: var(--font-bold);
+    font-size: 1rem;
+    color: var(--color-black);
+    margin: 0.5rem 0;
+}
+.favoriteProduct_price{
+    font-size: 1rem;
+    color: var(--color-gray-100);
+    margin: 0.5rem 0;
+}
+.favoriteProduct_buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.favoriteProduct_btn{
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 2rem;
+    margin: 0.4rem 0;
+    border-radius: 0.4rem;
+}
+
+.favoriteProduct_btnDelete{
+    background-color: var(--color-red-2);
+    color: var(--color-white);
+    transition: all 0.4s ease-in;
+}
+.favoriteProduct_btnDelete:hover{
+    background-color: var(--color-red-1);
+}
+.favoriteProduct_btnSeen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--color-green-1);
+    color: var(--color-black);
+    transition: all 0.4s ease-in;
+
+}
+.favoriteProduct_btnSeen:hover{
+    background-color: var(--color-green-2);
+}
+
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+.container{
+    max-width: 720px;
+}
+    
+}
+@media only screen and (max-width: 768px) {
+.container{
+    max-width: 540px;
+}
+
+}
+@media only screen and (max-width: 576px) {
+.container{
+    max-width:  100%;
+}
+.favoriteProduct_img{
+    width: 100%;
+    display: block;
+}
+.favoriteProduct{
+    flex-direction: column;
+}
+}

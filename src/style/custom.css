@@ -1,0 +1,163 @@
+@import url(./reset.css);
+
+/* +++++++++++ Start Font Family ++++++++++++ */
+@font-face {
+    font-family: iranMedium;
+    src: url(../font/IRANSansWeb_Medium.woff);
+}
+@font-face {
+    font-family: iranBold;
+    src: url(../font/IRANSansWeb_Bold.ttf);
+}
+@font-face {
+    font-family: iranBlack;
+    src: url(../font/IRANSansWeb_Black.ttf);
+}
+/* +++++++++++ End Font Family ++++++++++++ */
+
+/* +++++++++++ Start Variable Root ++++++++++++ */
+:root{
+    --font-medium : iranMedium;
+    --font-bold: iranBold;
+    --font-black: iranBlack;
+
+    --color-white : #FFFFFF;
+    --color-red-1 : #DC2626;
+    --color-red-2 : #E34141;
+    --color-pink : #F79999;
+    --color-black : #0C0C0C;
+    --color-gray-25 : #F9FAFB;
+    --color-gray-50 : #E5E7EB;
+    --color-gray-75: #DCDDDE;
+    --color-gray-100: #656573;
+    --color-green-1: #DEF7EC;
+    --color-green-2: #31C495;
+
+}
+/* +++++++++++ End Variable Root ++++++++++++ */
+/* +++++++++++ Start Style Body ++++++++++++ */
+body{
+    box-sizing: border-box;
+    font-family: var(--font-medium);
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: var(--color-gray-25);
+}
+/* +++++++++++ End Style Body ++++++++++++ */
+/* +++++++++++ Start Style Container ++++++++++++ */
+.containers{
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+/* +++++++++++ End Style Container ++++++++++++ */
+/* +++++++++++ Start Style DropDown ++++++++++++ */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* top: 2.3rem; */
+    background-color:var(--color-white);
+    box-shadow: 0 0 0.1rem 0.1rem var(--color-gray-25);
+    min-width: 160px;
+    border-radius: 0.5rem;
+    padding: 12px 16px;
+    z-index: 3;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* +++++++++++ End Style DropDown ++++++++++++ */
+/* +++++++++++ Start Style contentBox++++++++++++ */
+.contentBox{
+    display: block;
+    width: 100%;
+    color: var(--color-black);
+    box-shadow: 0 5px 8px 4px var(--color-gray-75);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+/* +++++++++++ End Style contentBox++++++++++++ */
+/* +++++++++++ Start Style Form Input and  Text ++++++++++++ */
+.Form{
+    width: 100%;
+}
+.Form_logo{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+.form_title{
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: var(--font-black);
+    font-size: 1.5rem;
+    color: var(--color-gray-100);
+}
+
+.formBox{
+    display: block;
+    width: 100%;
+    margin: 1rem 0; 
+}
+.formBox_text{
+    display: block;
+    color: var(--color-black);
+    font-size: 1rem;
+    color: var(--color-gray-100);
+    margin-bottom: 1rem;
+}
+.formBox_input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--color-white);
+    box-shadow: 0 0 8px 4px var(--color-pink);
+    border-radius: 0.5rem   ;
+    font-size: 1rem;
+    color: var(--color-gray-100);
+    padding-right: 0.3rem;
+}
+.form_submit{
+    margin: 1rem 0;
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--color-red-2);
+    font-family: var(--font-bold);
+    color: var(--color-white);
+    font-size: 1.4rem;
+    transition: all 0.4s ease-in;
+}
+.form_submit:hover{
+    background-color: var(--color-red-1);
+}
+.formBox_inputError{
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: var(--color-red-2);
+}
+.search_textError{
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    font-family: var(--font-bold);
+    font-size: 1.4rem;
+    color: var(--color-red-1);
+}
+/* +++++++++++ End Style Form Input and  Text ++++++++++++ */
+/* +++++++++++++++++++++++ */
+/* +++++++++++++++++++++++ */

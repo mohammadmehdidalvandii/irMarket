@@ -1,0 +1,158 @@
+.baskets{
+    display: block;
+    width: 100%;
+    margin: 3rem 0;
+}
+.basket_null{
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    font-family: var(--font-black);
+    font-size: 2rem;
+    color: var(--color-red-1);
+}
+.basket_card{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--color-gray-50);
+    border-radius: 1rem;
+}
+.basket_card_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.basket_card_item{
+    margin-bottom: 0.5rem;
+  
+}
+.basket_card_img{
+    width: 120px;
+}
+.basket_card_name{
+    font-size: 1rem;
+    color: var(--color-black);
+}
+.basket_card_count{
+    display: flex;
+    align-items: center;
+}
+.basket_card_countNum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 2rem;
+    border: 1px solid var(--color-gray-75);
+    border-radius: 0.3rem;
+    color: var(--color-black);
+}
+.basket_card_countBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 1px solid var(--color-gray-75);
+    border-radius: 0.3rem;
+    background-color: unset ;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.basket_card_price{
+    font-size: 1rem;
+    color: var(--color-black);
+}
+.basket_card_delete{
+    display: block;
+    width: 120px;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--color-red-2);
+    color: var(--color-white);
+    transition: all 0.4s ease-in;
+}
+.basket_card_delete:hover{
+    background-color: var(--color-red-1);
+}
+
+.basket_card_bill{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 400px;
+    border: 1px solid var(--color-gray-50);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 6px 3px var(--color-gray-75);
+}
+.basket_card_billItems{
+    display: block;
+}
+.basket_card_billItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--color-black);
+    margin-bottom: 1rem;
+}
+.basket_card_billTitle{
+font-family: var(--font-bold);
+font-size: 1.2rem;}
+.basket_card_billNum{
+    color: var(--color-gray-100);
+}
+.basket_card_billBtn{
+    width: 120px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: var(--color-red-2);
+    border-radius: 0.5rem;
+    color: var(--color-white);
+    transition: all 0.4s ease-in;
+}
+.basket_card_billBtn:hover{
+    background-color: var(--color-red-1);
+}
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+.container{
+    max-width: 720px;
+}
+    
+}
+@media only screen and (max-width: 768px) {
+.containers{
+    max-width: 540px;
+}
+.basket_card{
+    text-align: center;
+}
+.basket_card_items{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+}
+@media only screen and (max-width: 576px) {
+.container{
+    max-width:  100%;
+}
+}

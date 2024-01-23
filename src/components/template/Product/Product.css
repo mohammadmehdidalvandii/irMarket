@@ -1,0 +1,34 @@
+.product{
+    display: block;
+    width: 100%;
+    margin: 3rem 0;
+}
+
+
+.product_grouping{
+    margin: 2rem 0;
+}
+.product_grouping_items{
+    display: block;
+    width: 100%;
+}
+.product_grouping_item{
+    
+}
+.product_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 120px;
+    height: 2rem;
+    outline: none;
+    border: none;
+border-radius: 0.5rem;
+background-color: var(--color-red-2);
+color: var(--color-white);
+transition: all 0.5s ease-in;
+}
+.product_button:hover{
+    background-color: var(--color-red-1);
+}

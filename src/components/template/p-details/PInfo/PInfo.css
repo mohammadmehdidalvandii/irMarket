@@ -1,0 +1,27 @@
+.pInfo{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.pInfo_items{
+    display: block;
+    margin-trim: block-end;
+}
+.pInfo_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    background-color: var(--color-gray-50);
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+.pInfo_item_title{
+    font-family: var(--font-bold);
+    font-size: 0.9rem;
+    color: var(--color-black);
+}
+.pInfo_item_text{
+    font-size: 0.9rem;
+    color: var(--color-gray-100);
+}

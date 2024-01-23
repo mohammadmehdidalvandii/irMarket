@@ -1,0 +1,19 @@
+.link{
+    display:flex;
+    align-items: baseline;
+    justify-content: left;
+    width: 100%;
+    text-decoration: none;
+    color: var(--color-black);
+    transition: all 0.4s ease-in;
+}
+.link:hover{
+    color: var(--color-red-1);
+}
+.link_text{
+    font-size: 1.2rem;
+}
+.link_icon{
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
+}

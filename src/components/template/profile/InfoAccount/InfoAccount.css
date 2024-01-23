@@ -1,0 +1,81 @@
+.infoAccount{
+    display: block;
+    width: 100%;
+}
+.infoAccount_wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+.infoBox{
+    display: block;
+    width: 100%;
+}
+.infoBox_wrapper{
+    margin: 0 1rem;
+}
+.infoBox_label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--color-gray-100);
+}
+.infoBox_input{
+    width: 100%;
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid var(--color-gray-50);
+    border-radius: 0.4rem;
+    background-color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-gray-100);
+    padding-right: 0.4rem;
+}
+
+.infoAccount_btn{
+    display: block;
+    margin: 1rem 0;
+    width: 120px;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--color-red-2);
+    color: var(--color-white);
+    transition: all 0.4s ease-in;
+}
+.infoAccount_btn:hover{
+    background-color: var(--color-red-1);
+}
+
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+.container{
+    max-width: 720px;
+}
+    
+}
+@media only screen and (max-width: 768px) {
+.container{
+    max-width: 540px;
+}
+
+}
+@media only screen and (max-width: 576px) {
+.container{
+    max-width:  100%;
+}
+.infoAccount_wrapper{
+    flex-direction: column;
+}
+}
